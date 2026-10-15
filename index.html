@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Travel English: Pack, Go & Ask for Help!</title>
+<style>
+:root{color-scheme:light;--bg:#FFF5F8;--p:#E88BAA;--pd:#B2486F;--s:#FCE1EA;--t:#39343A;--b:#F2CBD8;--ok:#E3F6EC;--okb:#2e9e6b;--no:#FDE7E7;--nob:#d9534f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--t);font:18px/1.55 system-ui,"Segoe UI",Roboto,sans-serif}
+#top{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 12px 6px;border-bottom:1px solid var(--b)}
+#pb{height:8px;background:var(--s);border-radius:9px;overflow:hidden}#bar{height:100%;width:0;background:var(--p);transition:width .4s}
+#nav{display:flex;gap:6px;overflow-x:auto;padding:8px 0 2px}
+.pill{border:1px solid var(--b);background:#fff;color:var(--t);border-radius:99px;padding:6px 12px;font:inherit;font-size:15px;cursor:pointer;white-space:nowrap}
+.pill.on{background:var(--p);border-color:var(--p);font-weight:700}.pill:hover{background:var(--s)}
+main{max-width:900px;margin:0 auto;padding:16px 12px}
+.card{background:#fff;border:1px solid var(--b);border-radius:22px;padding:18px;margin:14px 0;box-shadow:0 4px 14px rgba(232,139,170,.15)}
+h1,h2,h3{color:var(--pd);line-height:1.25;margin:.3em 0}h1{font-size:2rem}
+.sub{color:#6b6470;margin:0 0 10px}.em{font-size:2rem}.huge{font-size:4rem}.hero{text-align:center}
+.tag{background:var(--s);border:1px solid var(--b);border-radius:99px;padding:4px 14px;font-weight:700;color:var(--pd)}
+ul.ck{list-style:none;padding:0;text-align:left;max-width:380px;margin:12px auto}
+.btn,.mini,.opt,.chip,.mb{font:inherit;cursor:pointer;border-radius:14px;border:2px solid var(--p);background:var(--p);color:var(--t);padding:10px 18px;font-weight:700;transition:.15s}
+.btn:hover,.mini:hover,.chip:hover{transform:translateY(-2px);box-shadow:0 4px 10px rgba(232,139,170,.4)}
+.btn.ghost,.chip{background:#fff;color:var(--pd)}.btn:disabled{opacity:.4;cursor:default;transform:none;box-shadow:none}
+.mini{padding:4px 10px;font-size:14px;background:#fff;margin:2px}
+.chip{padding:6px 12px;margin:3px;font-weight:600}.chip.on{background:var(--p);color:var(--t)}
+.opts{display:grid;gap:8px;margin:8px 0}.opt{background:#fff;text-align:left;font-weight:600;border-color:var(--b)}
+.opt:hover:not(:disabled){background:var(--s);border-color:var(--p)}
+.opt.ok,.mb.ok{background:var(--ok);border-color:var(--okb)}.opt.no{background:var(--no);border-color:var(--nob)}
+.qt{font-weight:700}.fb{min-height:1.4em;margin-top:6px}.sc{font-weight:700;color:var(--pd);margin:8px 0}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+input{font:inherit;padding:10px 12px;border:2px solid var(--b);border-radius:12px;min-width:0;flex:1;background:#fff;color:var(--t)}input:focus{outline:none;border-color:var(--p)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:12px}
+.fc{perspective:900px;height:215px;cursor:pointer}
+.in{position:relative;height:100%;transition:transform .55s;transform-style:preserve-3d}.fc.f .in{transform:rotateY(180deg)}
+.fr,.bk{position:absolute;inset:0;backface-visibility:hidden;-webkit-backface-visibility:hidden;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:12px;border-radius:20px;border:2px solid var(--b);background:#fff;box-shadow:0 3px 10px rgba(232,139,170,.2)}
+.bk{transform:rotateY(180deg);background:var(--s);font-size:16px}.fr small{color:#6b6470}.fr b{font-size:1.4rem;color:var(--pd)}
+.pi{border:2px solid var(--b);border-radius:16px;padding:10px;text-align:center;background:#fff}.pi.y{background:var(--ok);border-color:var(--okb)}.pi.n{background:var(--no);border-color:var(--nob)}
+.ex{background:#fff;border:2px solid var(--b);border-radius:18px;padding:12px;display:flex;gap:10px;align-items:center}.ex small{color:#6b6470;display:block}
+mark{background:var(--s);color:var(--pd);border-radius:6px;padding:0 6px;font-weight:700}
+.mg{display:grid;grid-template-columns:1fr 1fr;gap:8px}.mg>div{display:grid;gap:6px;align-content:start}
+.mb{background:#fff;border-color:var(--b);padding:8px 10px;text-align:left;font-size:16px}.mb.sel{background:var(--p);border-color:var(--p)}.mb:disabled{cursor:default}
+.chat{display:grid;gap:8px;margin:10px 0}.b{max-width:85%;padding:10px 14px;border-radius:18px;background:#fff;border:2px solid var(--b)}.b.t{justify-self:end;background:var(--s)}.b small{display:block;color:#6b6470}
+.line{padding:8px 12px;border-radius:14px;margin:6px 0;border:1px solid var(--b)}.line.t{background:var(--s);border:2px solid var(--p)}.blur b{filter:blur(6px);cursor:pointer}
+.foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin:18px 0 40px}
+.res{background:var(--s);border-radius:18px;padding:14px;margin-top:10px}
+@media(max-width:560px){.pill span{display:none}.pill.on span{display:inline}h1{font-size:1.6rem}body{font-size:17px}}
+</style></head><body>
+<div id="top"><div id="pb"><div id="bar"></div></div><div id="nav"></div></div>
+<main><div id="main"></div>
+<div class="foot"><button class="btn ghost" id="back" onclick="go(S.step-1)">← Back</button><span id="cnt"></span><button class="btn" id="next" onclick="go(S.step+1)">Next →</button></div></main>
+<script>
+const $=s=>document.querySelector(s),sh=a=>[...a].sort(()=>Math.random()-.5);
+const S={step:0,warm:{},pack:{},w:["","","","","",""],last:0,sc:{}};
+function say(t){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(t);u.lang="en-US";u.rate=.8;speechSynthesis.speak(u)}catch(e){}}
+const sp=(t,i)=>`<button class="mini" title="Listen" onclick="event.stopPropagation();say(${JSON.stringify(t).replace(/"/g,"&quot;")})">🔊</button>`;
+const mc=(q,a,x,w,e,t,s)=>({q,a,o:[a,...x],w,e,t,s});
+const sec=(h,s,b)=>`<section class="card"><h2>${h}</h2><p class="sub">${s}</p>${b}</section>`;
+
+/* ---------- DATA ---------- */
+const WU=[["🧳","Do you like traveling?",["Yes, I do.","No, I don't."]],["✈️","Do you travel by plane?",["Yes, I do.","No, I don't.","By car."]],["🛂","Do you have a passport?",["Yes, I do.","No, I don't."]],["🎒","Do you like big suitcases or small bags?",["A big suitcase.","A small bag."]],["🌎","Where do you want to go?",["Japan.","Italy.","France.","The USA.","Another country."]]];
+const VR=[["✈️","Travel","viagem"],["🛫","Airport","aeroporto"],["🧳","Baggage","bagagem"],["🧾","Baggage claim","retirada de bagagem"],["🎟️","Ticket","passagem"],["🛂","Check-in","check-in (registro)"],["💳","Credit card","cartão de crédito"],["🛃","Customs","alfândega"],["🛩️","Flight","voo"],["🏨","Hotel","hotel"],["🛫","Take off","decolar"],["🛬","Land","pousar"],["🛂","Passport","passaporte"],["🛂","Visa","visto"],["🗺️","Map","mapa"],["🚕","Taxi","táxi"],["🧍","Passenger","passageiro(a)"],["🧭","Route","rota"],["🛋️","Lounge","sala de espera VIP"],["🛳️","Cruise","cruzeiro"],["🧳","Arrival","chegada"]];
+const LS=[mc("What does “All set!” mean?","Tudo pronto!",["Estou perdido.","Estou com fome."],"“All set!” = Tudo pronto!","✅"),
+mc("What do you do on a plane?","Buckle up your seatbelt.",["Cook dinner.","Buy a suitcase."],"“Buckle up your seatbelt.” = Afivele o cinto de segurança.","💺"),
+mc("“Screen” means...","tela",["cinto","mala"],"Screen = tela. Exemplo: Look at the screen.","🖥️"),
+mc("“Desk” means...","balcão / mesa",["janela","passaporte"],"Desk = balcão / mesa (o check-in desk é o balcão de check-in).","🛎️")];
+const SN=[mc("I show my ____ at check-in.","passport",["jacket","taxi"],"I show my passport at check-in.","🛂"),mc("My ____ is at 8:00.","flight",["passport","map"],"My flight is at 8:00.","🛩️"),mc("I get my suitcase at ____.","baggage claim",["the hotel","customs"],"I get my suitcase at baggage claim.","🧾"),mc("I pay with my ____.","credit card",["route","cruise"],"I pay with my credit card.","💳")];
+const VOC=[["🧳","Suitcase","mala de viagem","My suitcase is big.","Minha mala é grande.","a suitcase",0],["🎒","Backpack","mochila","My backpack is small.","Minha mochila é pequena.","a backpack",0],["👕","Clothes","roupas","I need clothes.","Eu preciso de roupas.","clothes",0],["👖","Pants","calças","I have two pairs of pants.","Eu tenho duas calças.","pants",0],["👕","T-shirt","camiseta","I need a T-shirt.","Eu preciso de uma camiseta.","a T-shirt",0],["👟","Shoes","sapatos","My shoes are black.","Meus sapatos são pretos.","shoes",0],["🧦","Socks","meias","I need clean socks.","Eu preciso de meias limpas.","socks",0],["🧥","Jacket","jaqueta","My jacket is blue.","Minha jaqueta é azul.","a jacket",0],["🩱","Swimsuit","roupa de banho","I need a swimsuit.","Eu preciso de uma roupa de banho.","a swimsuit",0],
+["🪥","Toothbrush","escova de dentes","I have a toothbrush.","Eu tenho uma escova de dentes.","a toothbrush",1],["🧴","Shampoo","xampu","I need shampoo.","Eu preciso de xampu.","shampoo",1],["📱","Phone","celular","My phone is in my bag.","Meu celular está na minha bolsa.","my phone",1],["🔌","Charger","carregador","Where is my charger?","Onde está meu carregador?","my charger",1],["🪪","Passport","passaporte","My passport is here.","Meu passaporte está aqui.","my passport",2],["💊","Medicine","medicamento","I need my medicine.","Eu preciso do meu medicamento.","my medicine",2]];
+const GN=["👕 Clothes & bags","🪥 Personal items","🪪 Travel documents & health"];
+const EXP=[["✈️","Where is the airport?","Onde fica o aeroporto?"],["🎟️","Here is my ticket.","Aqui está minha passagem."],["🛂","Here is my passport.","Aqui está meu passaporte."],["🧳","Where is baggage claim?","Onde fica a retirada de bagagem?"],["🪑","Where is the gate?","Onde fica o portão de embarque?"],["🕒","What time is my flight?","Que horas é meu voo?"],["🚻","Where is the bathroom?","Onde fica o banheiro?"],["🆘","Can you help me, please?","Você pode me ajudar, por favor?"],["🔁","Can you repeat, please?","Você pode repetir, por favor?"],["🐢","Can you speak slowly, please?","Você pode falar devagar, por favor?"],["❓","I don't understand.","Eu não entendo."],["🙏","Thank you for your help.","Obrigada pela ajuda."]];
+const EQ=[mc("You don't understand the airport worker. What do you say?","Can you speak slowly, please?",["My suitcase is blue.","I want a sandwich."],"Para pedir que falem mais devagar.","🐢"),
+mc("You can't find the bathroom. What do you ask?","Where is the bathroom?",["Here is my ticket.","I am Brazilian."],"Where is...? serve para perguntar onde fica um lugar.","🚻"),
+mc("At check-in, the worker asks for your passport.","Here is my passport.",["I want a sandwich.","Where is the bathroom?"],"Here is... = Aqui está...","🛂"),
+mc("You need to find your suitcase after the flight.","Where is baggage claim?",["Here is my ticket.","Can you repeat, please?"],"Baggage claim é onde se pega a mala.","🧾"),
+mc("You want to know the time of your flight.","What time is my flight?",["Where is the gate?","I don't understand."],"What time...? = Que horas...?","🕒"),
+mc("You didn't hear the worker. What do you say?","Can you repeat, please?",["Here is my passport.","Where is the airport?"],"Para pedir que repitam.","🔁"),
+mc("A worker helps you. What do you say?","Thank you for your help.",["I don't understand.","Where is the gate?"],"Para agradecer a ajuda.","🙏"),
+mc("You need help with a problem.","Can you help me, please?",["My shoes are black.","Here is my ticket."],"Can you help me, please? é o pedido de ajuda mais útil.","🆘")];
+const HP=[mc("Você está perdida no aeroporto.","Excuse me. Can you help me, please?",["Here is my ticket.","I need a swimsuit."],"Modelo: “Excuse me. Can you help me, please?”","🧭"),
+mc("Você não encontra sua mala.","Excuse me. Where is my suitcase?",["I have a toothbrush.","Thank you for your help."],"Modelo: “Excuse me. Where is my suitcase?”","🧳"),
+mc("Você não entende o funcionário.","I don't understand. Can you speak slowly, please?",["Where is the gate?","Here is my passport."],"Modelo: “I don't understand. Can you speak slowly, please?”","🐢"),
+mc("Você precisa encontrar o banheiro.","Where is the bathroom?",["I need a taxi.","Here is my ticket."],"Modelo: “Where is the bathroom?”","🚻"),
+mc("Você precisa de ajuda com a bagagem.","Can you help me with my bag, please?",["Where is the bathroom?","My bag is blue."],"Modelo: “Can you help me with my bag, please?”","🎒"),
+mc("Você não sabe onde fica o portão de embarque.","Where is the gate?",["What time is my flight?","I need a taxi."],"Modelo: “Excuse me. Where is the gate?”","🪑")];
+const FQ=[mc("What do you need to travel to another country?","A passport",["A sandwich","A jacket"],"Passport = passaporte.","🛂","Vocabulary",2),
+{q:"Where do you collect your suitcase? (Type 2 words)",fill:["baggage claim"],w:"Baggage claim = retirada de bagagem.",e:"🧾",t:"Airport vocabulary",s:2},
+mc("How do you ask for help?","Can you help me, please?",["Here is my ticket.","I am Brazilian."],"Can you help me, please?","🆘","Asking for help",5),
+mc("What does “All set!” mean?","Tudo pronto!",["Estou perdido.","Estou com fome."],"All set! = Tudo pronto!","✅","Listening expressions",2),
+{q:"Complete: I don't ______.",fill:["understand"],w:"I don't understand. = Eu não entendo.",e:"❓",t:"Travel expressions",s:4},
+mc("What do you put in your suitcase?","Clothes and shoes",["A taxi","A flight"],"Clothes = roupas; shoes = sapatos.","🧳","Suitcase vocabulary",3),
+mc("Where do you find your flight information?","On the screen at the airport",["In the shampoo","On the shoes"],"Flight information fica na tela (screen) do aeroporto.","🖥️","Airport vocabulary",2),
+mc("How do you ask someone to speak slowly?","Can you speak slowly, please?",["Can you repeat, please?","Thank you!"],"Slowly = devagar. Repeat = repetir.","🐢","Travel expressions",4),
+mc("You need to find the bathroom. What do you say?","Where is the bathroom?",["Where is the gate?","I need a taxi."],"Where is the...? pergunta onde fica algo.","🚻","Asking for help",5),
+mc("What does “Buckle up your seatbelt” mean?","Afivele o cinto de segurança.",["Abra a janela.","Coloque sua mala aqui."],"Seatbelt = cinto de segurança.","💺","Listening expressions",2)];
+const RP=[{t:"1. Baggage claim",l:[["w","Hello! Can I help you?","Olá! Posso ajudar?"],["t","Yes, please. Where is baggage claim?","Sim, por favor. Onde fica a retirada de bagagem?",["I am Brazilian.","I want a sandwich."]],["w","It is over there.","Fica ali."],["t","Thank you!","Obrigada!",["Where is the gate?","My shoes are black."]],["w","You're welcome!","De nada!"]]},
+{t:"2. The gate",l:[["t","Excuse me.","Com licença.",["I like pizza.","Here is my shoe."]],["w","Yes? Can I help you?","Sim? Posso ajudar?"],["t","Where is the gate? Can you help me, please?","Onde fica o portão? Você pode me ajudar, por favor?",["I need shampoo.","I have a toothbrush."]],["w","Yes. The gate is over there.","Sim. O portão fica ali."],["t","Thank you.","Obrigada.",["Where is the bathroom?","I don't need it."]],["w","You're welcome!","De nada!"]]}];
+
+/* ---------- QUIZ ENGINE ---------- */
+const Q={};
+function qBlock(id,qs){qs=qs.map(q=>q.o?{...q,o:sh(q.o)}:q);Q[id]={qs,r:{}};
+return `<div id="q-${id}">${qs.map((q,i)=>`<div class="card q" id="${id}-${i}"><div class="qt">${i+1}. ${q.e?`<span class="em" style="font-size:1.4rem">${q.e}</span> `:""}${q.q}</div>${q.fill?`<div class="row"><input id="${id}-${i}-in" placeholder="Type here..." onkeydown="if(event.key==='Enter')fill('${id}',${i})"><button class="btn" onclick="fill('${id}',${i})">Check</button></div>`:`<div class="opts">${q.o.map((o,j)=>`<button class="opt" onclick="pick('${id}',${i},${j})">${o}</button>`).join("")}</div>`}<div class="fb"></div></div>`).join("")}<div class="sc" id="sc-${id}"></div><button class="btn ghost" onclick="rst('${id}')">↻ Restart</button></div>`}
+function done(id,i,ok,extra){const q=Q[id].qs[i],c=$("#"+id+"-"+i);Q[id].r[i]=ok;
+c.querySelector(".fb").innerHTML=(ok?"🎉 <b>Great job!</b> ":"💡 <b>Not quite.</b> Resposta: <b>"+(q.a||q.fill[0])+"</b>. ")+(q.w||"")+(ok?"":` <button class="mini" onclick="retry('${id}',${i})">Try again</button>`);score(id)}
+function pick(id,i,j){const q=Q[id].qs[i];if(Q[id].r[i]!==undefined)return;const ok=q.o[j]===q.a;
+$("#"+id+"-"+i).querySelectorAll(".opt").forEach((b,k)=>{b.disabled=true;if(q.o[k]===q.a)b.classList.add("ok");else if(k===j)b.classList.add("no")});done(id,i,ok)}
+const norm=s=>s.toLowerCase().replace(/[^a-z' ]/g,"").replace(/\s+/g," ").trim();
+function lev(a,b){const d=[...Array(b.length+1).keys()];for(let i=1;i<=a.length;i++){let p=d[0];d[0]=i;for(let j=1;j<=b.length;j++){const t=d[j];d[j]=Math.min(d[j]+1,d[j-1]+1,p+(a[i-1]===b[j-1]?0:1));p=t}}return d[b.length]}
+function fill(id,i){const q=Q[id].qs[i],inp=$("#"+id+"-"+i+"-in"),v=norm(inp.value);if(!v||Q[id].r[i]!==undefined)return;
+const ok=q.fill.some(a=>{a=norm(a);return v===a||lev(v,a)<=(a.length>6?2:1)});inp.disabled=true;done(id,i,ok)}
+function retry(id,i){delete Q[id].r[i];const c=$("#"+id+"-"+i);c.querySelectorAll(".opt").forEach(b=>{b.disabled=false;b.className="opt"});const n=c.querySelector("input");if(n){n.disabled=false;n.value="";n.focus()}c.querySelector(".fb").innerHTML="";score(id)}
+function score(id){const r=Q[id].r,n=Q[id].qs.length,c=Object.values(r).filter(Boolean).length;S.sc[id]=c;$("#sc-"+id).textContent=`⭐ Score: ${c}/${n}`+(Object.keys(r).length==n&&c==n?" — Perfect! 🌟":"")}
+function rst(id){$("#q-"+id).outerHTML=qBlock(id,Q[id].qs);S.sc[id]=0}
+
+/* ---------- VIEWS ---------- */
+const ST=[["🏠","Start"],["💬","Warm-up"],["🔁","Review"],["🧳","Pack"],["🛂","Expressions"],["🆘","Help"],["🎭","Roleplay"],["✍️","Writing"],["🏆","Final"]];
+const V=[
+()=>`<section class="card hero"><div class="huge">✈️</div><h1>Travel English: Pack, Go & Ask for Help!</h1><p><i>Let's get ready for a trip!</i></p><span class="tag">A1 Beginner</span><h3>Oi, Vitória! 💖 Today we will:</h3><ul class="ck"><li>✅ Review travel vocabulary.</li><li>✅ Pack a suitcase.</li><li>✅ Learn useful travel expressions.</li><li>✅ Ask for help in English.</li></ul><button class="btn" onclick="go(1)">Let's go! ✈️</button></section>`,
+()=>sec("💬 Warm-up: Let's travel!","Clique na resposta e depois fale em voz alta. Não precisa de frase longa!",WU.map((w,i)=>`<div class="card"><div class="qt"><span class="em" style="font-size:1.5rem">${w[0]}</span> ${w[1]} ${sp(w[1])}</div><div>${w[2].map((o,j)=>`<button class="chip ${S.warm[i]===j?"on":""}" onclick="S.warm[${i}]=${j};render()">${o}</button>`).join("")}</div><div class="fb">${S.warm[i]!==undefined?"🎤 Say it out loud: <mark>"+w[2][S.warm[i]]+"</mark>":""}</div></div>`).join("")),
+()=>sec("🔁 Review: What do you remember?","Vocabulário da AULA 23.",`<h3>A. Match the words</h3><p class="sub">Clique na palavra em inglês e depois no significado em português.</p><div id="mt"></div><button class="btn ghost" onclick="initM()">↻ Restart</button>`)+sec("🎧 B. Listening review","Expressões do vídeo <i>At the Airport</i>. Novas palavras: desk, says, all set, amazing, through, screen, seatbelt.",qBlock("ls",LS))+sec("✏️ Complete the sentences","Escolha a palavra certa.",qBlock("sn",SN)),
+()=>sec("🧳 New vocabulary: Pack my suitcase!","Clique no cartão para virar. Clique de novo para voltar. 🔊 para ouvir.",[0,1,2].map(g=>`<h3>${GN[g]}</h3><div class="grid">${VOC.filter(v=>v[6]==g).map(v=>`<div class="fc" onclick="this.classList.toggle('f')"><div class="in"><div class="fr"><div class="huge">${v[0]}</div><b>${v[1]}</b>${sp(v[1])}<small>👆 click to flip</small></div><div class="bk"><b>${v[2]}</b><p><i>${v[3]}</i><br><small>${v[4]}</small></p></div></div></div>`).join("")}</div>`).join(""))+sec("🎒 What goes in my suitcase?","Escolha: <b>Pack</b> (vou levar) ou <b>No</b> (não preciso). Clique de novo para desmarcar.",`<div class="grid" id="pk"></div><div class="res" id="pl"></div>`),
+()=>sec("🛂 Useful expressions: At the airport","São <b>blocos prontos</b>: você pode usar sem entender toda a gramática. Repita em voz alta! 🗣️",`<div class="grid">${EXP.map(e=>`<div class="ex"><span class="em">${e[0]}</span><div><b>${e[1]}</b><small>${e[2]}</small></div>${sp(e[1])}</div>`).join("")}</div>`)+sec("✅ Practice: Choose the correct expression","Escolha o que dizer em cada situação.",qBlock("ex",EQ)),
+()=>sec("🆘 Asking for help: Help me, please!","Três estruturas simples. A parte <mark>colorida</mark> pode mudar.",`<div class="card"><h3>1️⃣ Where is the <mark>bathroom</mark>?</h3><p>Where is the <mark>gate</mark>? · Where is <mark>baggage claim</mark>?<br><small>Onde fica...?</small></p></div><div class="card"><h3>2️⃣ Can you help me<mark> </mark>, please?</h3><p>Can you help me, please? · Can you help me with <mark>my bag</mark>, please?<br><small>Você pode me ajudar...?</small></p></div><div class="card"><h3>3️⃣ I need <mark>help</mark>.</h3><p>I need <mark>a taxi</mark>. · I need <mark>my passport</mark>.<br><small>Eu preciso de...</small></p></div>`)+sec("🎯 What do you say?","Escolha a melhor frase para cada situação.",qBlock("hp",HP))+sec("🎤 Say it out loud","Leia a situação, fale, e depois abra o modelo.",HP.map(h=>`<details class="card"><summary><b>${h.e} ${h.q}</b></summary><p>You say: <mark>“${h.a}”</mark> ${sp(h.a)}</p></details>`).join("")),
+()=>sec("🎭 Mini roleplay: At the airport","Você é a <b>Traveler</b> 🧳. Escolha sua fala e depois leia em voz alta.",`<div id="rp"></div>`),
+()=>sec("✍️ My Dream Trip ✈️","Complete os campos. Toque numa palavra do banco para preencher o campo selecionado.",`<div class="card">${[["My dream country:","Japan"],["I need a / an:","suitcase"],["I want to take:","T-shirt and my phone"],["I need my:","passport"],["I want to visit:","a hotel"],["I want to stay for (days):","seven"]].map((f,i)=>`<div class="row"><label style="min-width:190px;align-self:center"><b>${f[0]}</b></label><input id="w${i}" placeholder="ex: ${f[1]}" value="${S.w[i].replace(/"/g,"&quot;")}" onfocus="S.last=${i}" oninput="gen()"></div>`).join("")}<p><b>Word bank:</b><br>${["Japan","Italy","France","suitcase","backpack","passport","phone","T-shirt","hotel","seven","three"].map(w=>`<button class="chip" onclick="chip('${w}')">${w}</button>`).join("")}</p><div class="row"><button class="btn ghost" onclick="S.w=['','','','','',''];render()">🧹 Clear / Start again</button></div></div><div class="card res"><h3>My text</h3><p id="out" style="font-size:1.15rem"></p><button class="btn" onclick="say($('#out').textContent)">🔊 Read aloud</button></div>`),
+()=>sec("🏆 Final review","10 questions. Você pode tentar de novo nas erradas!",qBlock("fin",FQ)+`<button class="btn" onclick="res()">See my results 🎉</button><div id="res"></div>`)];
+const INIT={2:()=>initM(),3:()=>drawPack(),6:()=>rpInit(S.rpd||0),7:()=>gen()};
+
+/* ---------- MATCHING ---------- */
+function drawM(){const M=S.m,n=Object.keys(M.d).length;
+$("#mt").innerHTML=`<div class="mg"><div>${VR.map((p,i)=>`<button class="mb ${M.d[i]?"ok":""} ${M.s===i?"sel":""}" ${M.d[i]?"disabled":""} onclick="ml(${i})">${p[0]} ${p[1]}</button>`).join("")}</div><div>${M.o.map(i=>`<button class="mb ${M.d[i]?"ok":""}" ${M.d[i]?"disabled":""} onclick="mr(${i})">${VR[i][2]}</button>`).join("")}</div></div><p class="fb">${M.msg}</p><div class="sc">⭐ ${n}/${VR.length}${n==VR.length?" — Amazing! 🏆":""}</div>`}
+function initM(){S.m={s:null,d:{},o:sh([...VR.keys()]),msg:""};drawM()}
+function ml(i){S.m.s=i;S.m.msg="";drawM()}
+function mr(i){const M=S.m;if(M.s==null){M.msg="👈 Click an English word first.";return drawM()}
+if(M.s===i){M.d[i]=1;M.msg=`🎉 <b>Great job!</b> ${VR[i][1]} = ${VR[i][2]}`}else M.msg=`💡 Not quite. <b>${VR[M.s][1]} = ${VR[M.s][2]}</b>. Try again!`;M.s=null;drawM()}
+
+/* ---------- PACKING ---------- */
+function pk(i,v){S.pack[i]=S.pack[i]===v?0:v;drawPack()}
+function drawPack(){$("#pk").innerHTML=VOC.map((p,i)=>`<div class="pi ${S.pack[i]==1?"y":S.pack[i]==2?"n":""}"><div class="em">${p[0]}</div><b>${p[1]}</b><div><button class="mini" onclick="pk(${i},1)">🧳 Pack</button><button class="mini" onclick="pk(${i},2)">🚫 No</button></div></div>`).join("");
+const y=VOC.filter((p,i)=>S.pack[i]==1).map(p=>`I need ${p[5]}.`),n=VOC.filter((p,i)=>S.pack[i]==2).map(p=>`I don't need ${p[5]}.`),all=[...y,...n];
+$("#pl").innerHTML=all.length?`<h3>🗣️ Say my list:</h3>${all.map(x=>`<div>• <b>${x}</b></div>`).join("")}<br><button class="btn" onclick="say(${JSON.stringify(all.join(" ")).replace(/"/g,"&quot;")})">🔊 Listen</button>`:`<b>Model:</b> I need a T-shirt. · I need my passport. · I need my phone and charger. · I don't need a jacket.`}
+
+/* ---------- ROLEPLAY ---------- */
+function rpInit(d){S.rpd=d;S.rp={d,n:0,m:"",p:S.rp&&S.rp.p};adv();drawRP()}
+function adv(){const r=S.rp,l=RP[r.d].l;while(l[r.n]&&l[r.n][0]=="w")r.n++;if(l[r.n])r.o=sh([l[r.n][1],...l[r.n][3]])}
+const bub=(x,i)=>`<div class="b ${x[0]}"><small>${x[0]=="t"?"🧳 Vitória":"🧑‍✈️ Airport worker"}</small>${x[1]} <button class="mini" onclick="say(RP[S.rp.d].l[${i}][1])">🔊</button></div>`;
+function rc(j){const r=S.rp,l=RP[r.d].l;if(r.o[j]===l[r.n][1]){r.n++;r.m="🎉 Great job!";adv()}else r.m="💡 Not quite. Try again!";drawRP()}
+function drawRP(){const r=S.rp,l=RP[r.d].l,fin=r.n>=l.length;
+let h=`<div class="row">${RP.map((x,i)=>`<button class="pill ${i==r.d?"on":""}" onclick="rpInit(${i})">${x.t}</button>`).join("")}</div>`;
+if(!fin)h+=`<div class="chat">${l.slice(0,r.n).map((x,i)=>bub(x,i)).join("")}</div><p><b>Your turn! Choose what you say:</b></p><div class="opts">${r.o.map((o,j)=>`<button class="opt" onclick="rc(${j})">${o}</button>`).join("")}</div><div class="fb">${r.m}</div>`;
+else h+=`<h3>🎉 Dialogue complete!</h3><p class="sub">Suas falas estão destacadas em rosa. Leia em voz alta! 🎤</p><label><input type="checkbox" style="flex:none" ${r.p?"checked":""} onchange="S.rp.p=this.checked;drawRP()"> Practice mode (esconde suas falas; clique para ver)</label>${l.map((x,i)=>`<div class="line ${x[0]} ${x[0]=="t"&&r.p?"blur":""}" ${x[0]=="t"&&r.p?`onclick="this.classList.remove('blur')"`:""}>${x[0]=="t"?"🎤 <small>Vitória</small>":"🧑‍✈️ <small>Worker</small>"}<br><b>${x[1]}</b> <button class="mini" onclick="event.stopPropagation();say(RP[${r.d}].l[${i}][1])">🔊</button><br><small>${x[2]}</small></div>`).join("")}<button class="btn" onclick="rpInit(${r.d})">↻ Repeat dialogue</button>`;
+$("#rp").innerHTML=h}
+
+/* ---------- WRITING ---------- */
+const det=/^(a|an|my|the|two|some|\d+)\s/i,plu=/^(shoes|socks|pants|clothes|shampoo|medicine)$/i;
+const art=v=>v.split(/\s+and\s+/i).map(p=>{p=p.trim();return det.test(p)||plu.test(p)?p:(/^[aeiou]/i.test(p)?"an ":"a ")+p}).join(" and ");
+function gen(){const v=i=>$("#w"+i).value.trim(),t=[];S.w=[0,1,2,3,4,5].map(i=>v(i));
+if(v(0))t.push(`My dream trip is to ${v(0)}.`);if(v(1))t.push(`I need ${art(v(1))}.`);if(v(2))t.push(`I want to take ${art(v(2))}.`);if(v(3))t.push(`I need my ${v(3)}.`);if(v(4))t.push(`I want to visit ${v(4)}.`);if(v(5))t.push(`I want to stay for ${v(5)} days.`);
+$("#out").textContent=t.join(" ")||"Your text will appear here ✨"}
+function chip(w){$("#w"+S.last).value=w;gen()}
+
+/* ---------- FINAL RESULTS ---------- */
+function res(){const q=Q.fin,n=q.qs.length,a=Object.keys(q.r).length,c=Object.values(q.r).filter(Boolean).length,p=Math.round(c/n*100);
+if(a<n){$("#res").innerHTML=`<div class="res">Responda todas as perguntas primeiro (${a}/${n}). 💖</div>`;return}
+const msg=p>=80?"Amazing, Vitória! You are ready to travel! 🌟":p>=50?"Good job, Vitória! Keep practicing! 💪":"Nice try, Vitória! Let's review together. 💖";
+const bad=q.qs.map((x,i)=>q.r[i]===false?x:null).filter(Boolean),topics=[...new Set(q.qs.map(x=>x.t))];
+const rv=[...new Map(bad.map(x=>[x.s,x.t])).entries()];
+$("#res").innerHTML=`<div class="res"><h2>⭐ ${c}/${n} correct (${p}%)</h2><p><b>${msg}</b></p><p><b>Topics practiced:</b> ${topics.join(" · ")}</p>${rv.length?`<p><b>Review suggestion:</b></p>${rv.map(([s,t])=>`<button class="chip" onclick="go(${s})">↻ ${ST[s][0]} ${t}</button>`).join("")}`:"<p>🎉 No review needed. Great work!</p>"}<p><button class="btn ghost" onclick="rst('fin');$('#res').innerHTML=''">↻ Try again</button></p></div>`}
+
+/* ---------- NAV ---------- */
+function go(n){S.step=Math.max(0,Math.min(ST.length-1,n));render();scrollTo({top:0,behavior:"smooth"})}
+function render(){$("#bar").style.width=(S.step/(ST.length-1)*100)+"%";
+$("#nav").innerHTML=ST.map((s,i)=>`<button class="pill ${i==S.step?"on":""}" onclick="go(${i})">${s[0]}<span> ${s[1]}</span></button>`).join("");
+$("#main").innerHTML=V[S.step]();$("#back").disabled=S.step==0;$("#next").style.visibility=S.step==ST.length-1?"hidden":"visible";
+$("#cnt").textContent=`${S.step+1} / ${ST.length}`;INIT[S.step]&&INIT[S.step]()}
+render();
+</script></body></html>
